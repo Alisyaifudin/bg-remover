@@ -1,11 +1,7 @@
 [project]
-name = "bg-remover"
-version = "0.1.0"
+name = "rmbg"
+version = "1.1.0"
 description = "Remove image background"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = [
-    "flask>=3.1.2",
-    "pyuwsgi>=2.0.30",
-    "rembg[cpu]>=2.0.67",
-]
+dependencies = ["flask>=3.1.2", "pyuwsgi>=2.0.30", "rembg[cpu]>=2.0.67"]
